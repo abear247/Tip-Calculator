@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1118991C24034B1FF8CEEA93393E8512AB150DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E1118991C24034B1FF8CEEA93393E8512AB150DF" : 9223372036854775807,
+    "3B254D99F8C971C11F04DE1004DE22FB9C2EB74D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "30651A6D-B5ED-47A0-8B33-D327A6063D67",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E1118991C24034B1FF8CEEA93393E8512AB150DF" : "Tip-Calculator\/",
+    "3B254D99F8C971C11F04DE1004DE22FB9C2EB74D" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tip-Calculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tip-Calculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/abear247\/Patient-Doctor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B254D99F8C971C11F04DE1004DE22FB9C2EB74D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/abear247\/Tip-Calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1118991C24034B1FF8CEEA93393E8512AB150DF"
+    }
+  ]
+}

@@ -12,9 +12,9 @@
 		C8EB2D751E32719000D9AC6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EB2D741E32719000D9AC6B /* ViewController.m */; };
 		C8EB2D781E32719000D9AC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EB2D761E32719000D9AC6B /* Main.storyboard */; };
 		C8EB2D7A1E32719000D9AC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EB2D791E32719000D9AC6B /* Assets.xcassets */; };
-		C8EB2D7D1E32719000D9AC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EB2D7B1E32719000D9AC6B /* LaunchScreen.storyboard */; };
 		C8EB2D881E32719000D9AC6B /* Tip_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EB2D871E32719000D9AC6B /* Tip_CalculatorTests.m */; };
 		C8EB2D931E32719000D9AC6B /* Tip_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EB2D921E32719000D9AC6B /* Tip_CalculatorUITests.m */; };
+		C8EB2DA21E32755300D9AC6B /* TipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EB2DA11E32755300D9AC6B /* TipModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		C8EB2D741E32719000D9AC6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8EB2D771E32719000D9AC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8EB2D791E32719000D9AC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8EB2D7C1E32719000D9AC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8EB2D7E1E32719000D9AC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8EB2D831E32719000D9AC6B /* Tip-CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip-CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB2D871E32719000D9AC6B /* Tip_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalculatorTests.m; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		C8EB2D8E1E32719000D9AC6B /* Tip-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB2D921E32719000D9AC6B /* Tip_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalculatorUITests.m; sourceTree = "<group>"; };
 		C8EB2D941E32719000D9AC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EB2DA01E32755300D9AC6B /* TipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipModel.h; sourceTree = "<group>"; };
+		C8EB2DA11E32755300D9AC6B /* TipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +106,10 @@
 				C8EB2D711E32719000D9AC6B /* AppDelegate.m */,
 				C8EB2D731E32719000D9AC6B /* ViewController.h */,
 				C8EB2D741E32719000D9AC6B /* ViewController.m */,
+				C8EB2DA01E32755300D9AC6B /* TipModel.h */,
+				C8EB2DA11E32755300D9AC6B /* TipModel.m */,
 				C8EB2D761E32719000D9AC6B /* Main.storyboard */,
 				C8EB2D791E32719000D9AC6B /* Assets.xcassets */,
-				C8EB2D7B1E32719000D9AC6B /* LaunchScreen.storyboard */,
 				C8EB2D7E1E32719000D9AC6B /* Info.plist */,
 				C8EB2D6D1E32719000D9AC6B /* Supporting Files */,
 			);
@@ -246,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB2D7D1E32719000D9AC6B /* LaunchScreen.storyboard in Resources */,
 				C8EB2D7A1E32719000D9AC6B /* Assets.xcassets in Resources */,
 				C8EB2D781E32719000D9AC6B /* Main.storyboard in Resources */,
 			);
@@ -276,6 +277,7 @@
 				C8EB2D751E32719000D9AC6B /* ViewController.m in Sources */,
 				C8EB2D721E32719000D9AC6B /* AppDelegate.m in Sources */,
 				C8EB2D6F1E32719000D9AC6B /* main.m in Sources */,
+				C8EB2DA21E32755300D9AC6B /* TipModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +319,6 @@
 				C8EB2D771E32719000D9AC6B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C8EB2D7B1E32719000D9AC6B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C8EB2D7C1E32719000D9AC6B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
